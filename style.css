@@ -1,9 +1,12 @@
 * {
 	list-style-type: none;
 	text-decoration: none;
-	}
+}
 a {
-	color:black;
+		color:black;
+}
+a:hover {
+		color:#76316d;
 }
 html {
 	background-color: black;
@@ -214,34 +217,49 @@ aside a:first-child img {
 	width:170px;
 	margin-bottom: 3px;
 }
-aside a:nth-child(3) img {
+aside a:nth-child(3) {
+	display: block;
+	background-image: url('img/11.png');
 	height:17px;
 	width:17px;
 	margin-right:7px;
+	float:left;
 }
-aside a:nth-child(4) img {
+aside a:nth-child(4)  {
+	display: block;
+	background-image: url('img/12.png');
 	height:17px;
 	width:17px;
 	margin-right:7px;
+	float:left;
 }
-aside a:nth-child(5) img {
+aside a:nth-child(5)  {
+	display: block;
+	background-image: url('img/13.png');
 	height:17px;
 	width:17px;
 	margin-right:7px;
+	float:left;
 }
-aside a:nth-child(6) img {
+aside a:nth-child(6) {
+	display: block;
+	background-image: url('img/14.png');
 	height:17px;
 	width:40px;
 	margin-right:7px;
+	float:left;
 }
-aside a:nth-child(7) img {
+aside a:nth-child(7) {
+	display: block;
+	background-image: url('img/15.png');
 	height:17px;
 	width:35px;
 	margin-right:7px;
+	float:left;
 }
 aside h1 {
 	color:#76316d;
-	margin-top:0px;
+	margin-top:10px;
 	font-size: 20px;
 	margin-bottom: 0px; 
 	float:left;
@@ -249,7 +267,7 @@ aside h1 {
 }
 aside h4
 {
-	margin:6px 10px 0px 0px;
+	margin:16px 10px 0px 0px;
 	font-size: 14px;
 	float:right;
 	font-weight: normal;
@@ -258,7 +276,7 @@ aside hr {
 	border:2px solid #76316d;
 	width: 180px;
 	margin-left: 0px;
-	margin-top:25px;
+	margin-top:52px;
 }
 aside div {
 	margin-top: 10px;
@@ -301,7 +319,7 @@ aside a:last-child img
 {
 	width: 170px;
 	height: 100px;
-	margin-top:20px;
+	margin-top:15px;
 	margin-bottom: 10px;
 }
 body>hr {
