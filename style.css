@@ -1,6 +1,10 @@
 * {
 	list-style-type: none;
+	text-decoration: none;
 	}
+a {
+	color:black;
+}
 html {
 	background-color: black;
 }
@@ -191,6 +195,9 @@ section:nth-child(4) ul {
 section:nth-child(4) li {
 	display: inline;
 	font-size: 12px;
+	
+}
+section:nth-child(4) a {
 	color:#76316d;
 }
 section:nth-child(4) a:nth-child(8) {
